@@ -62,7 +62,7 @@ TEST(CompareEventTime, same_hours_test_false)
     eventTime.tm_min = 30;
     tm startTime = {};
     startTime.tm_hour = 8;
-    startTime.tm_min = 32;
+    startTime.tm_min = 35;
 
     bool result = compareEventTime(eventTime, startTime);
 
